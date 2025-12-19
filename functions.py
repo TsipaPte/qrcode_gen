@@ -13,7 +13,7 @@ def run():
     """Функция, приветствующая пользователя и запускающая меню"""
 
     print(colorama.Fore.MAGENTA + "Добро пожаловать в QR-Code Generator!")
-    print(colorama.Fore.YELLOW + "v. 1.0.0 pre release")
+    print(colorama.Fore.YELLOW + "v. 1.0.0 Release")
     print("-" * 15)
 
     menu()
