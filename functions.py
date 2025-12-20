@@ -98,7 +98,7 @@ def correction():
 
     choice_of_correction = input("[?] Выберите тип устойчивости QR-Кода (L/M/Q/H): ").upper()
 
-    if choice_of_correction in correction_data.keys():
+    if choice_of_correction in correction_data:
         return correction_data[choice_of_correction]
 
     print(ERROR + "Некорректно введены данные. Выбрано M")
